@@ -1,10 +1,8 @@
-package solid.lsp;
+package solid.isp;
 
-public class Salary implements HomeAllowance,MedicalAllowance,LunchAllowance{
-    double basic_Salary;
-
+public class Nurse implements ConveyanceAllowance,LunchAllowance,MedicalAllowance{
     @Override
-    public double homeAllowance() {
+    public double conveyanceAllowance() {
         return 0;
     }
 

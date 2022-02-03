@@ -1,4 +1,4 @@
-package withoutsolid.lsp;
+package withoutsolid.isp;
 
 public abstract class Salary {
     double basic_salary;
@@ -31,6 +31,7 @@ class Doctor extends Salary{
 }
 class Nurse extends Salary{
 
+    // HRA is not Applicable for nurse
     @Override
     public double House_Rent_Allowance() {
         return 0;
@@ -40,7 +41,7 @@ class Nurse extends Salary{
     public double Conveyance_Allowance() {
         return 0;
     }
-    // Lunch allowance is not for nurses
+
     @Override
     public double Lunch_Allowance() {
         return 0;

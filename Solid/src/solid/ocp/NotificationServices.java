@@ -9,4 +9,11 @@ public abstract class NotificationServices {
 }
 class EmailNotification extends NotificationServices{
 
+    @Override
+    public void sendOTP() {
+        System.out.println("OTP sent");
+    }
+    public void sendEmail(){
+        System.out.println("Email sent");
+    }
 }

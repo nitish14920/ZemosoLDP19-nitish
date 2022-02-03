@@ -1,10 +1,12 @@
 package solid.dip;
 
 public class Staff {
-    Employee employee;
+    Employee employee1;
+    Employee employee2;
+    void addStaff(AdminStaff newCashier,MedicalStaff newDoctor){
 
-    void addStaff(AdminStaff newCashier){
-        this.employee = newCashier;
+        this.employee1 = newCashier;
+        this.employee2 = newDoctor;
     }
 }
 

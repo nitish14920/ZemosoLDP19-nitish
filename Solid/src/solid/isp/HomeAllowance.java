@@ -1,4 +1,4 @@
-package solid.lsp;
+package solid.isp;
 
 public interface HomeAllowance {
 
