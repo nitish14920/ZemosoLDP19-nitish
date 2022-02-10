@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstractFactoryDesign/AbstractFactoryDesign.iml" filepath="$PROJECT_DIR$/AbstractFactoryDesign/AbstractFactoryDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/PracticeExamples/Divisible.iml" filepath="$PROJECT_DIR$/PracticeExamples/Divisible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAssignments/JavaAssignments.iml" filepath="$PROJECT_DIR$/JavaAssignments/JavaAssignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaPractice.iml" filepath="$PROJECT_DIR$/.idea/JavaPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Proj3_1_LearningPackages/Proj3_1_LearningPackages.iml" filepath="$PROJECT_DIR$/Proj3_1_LearningPackages/Proj3_1_LearningPackages.iml" />
       <module fileurl="file://$PROJECT_DIR$/Solid/Solid.iml" filepath="$PROJECT_DIR$/Solid/Solid.iml" />

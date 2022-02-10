@@ -1,12 +1,13 @@
 package solid.lsp;
 
-public interface HospitalFacilities {
+public interface HospitalFacilitiesForMedicalStaff {
     public void foodServices();
     public void creditSalary();
+    public void wifi();
 
 }
 
-class AmbulanceDriver implements HospitalFacilities{
+class AmbulanceDriver implements HospitalFacilitiesForMedicalStaff {
 
     @Override
     public void foodServices() {
@@ -18,9 +19,14 @@ class AmbulanceDriver implements HospitalFacilities{
 
     }
 
+    @Override
+    public void wifi() {
+
+    }
+
     public void incentives(){}
 }
-class Doctor implements HospitalFacilities{
+class Doctor implements HospitalFacilitiesForMedicalStaff {
 
     @Override
     public void foodServices() {
