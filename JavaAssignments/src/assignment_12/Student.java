@@ -6,7 +6,7 @@ public class Student {
     int age;
     String gender;
     String engDepartment;
-    int yoe;
+    int yearOfEnrollment;
     double perDT;
     public Student(int id,String name,int age,String gender,String engDepartment,int yoe,double perDT){
         this.id = id;
@@ -14,31 +14,11 @@ public class Student {
         this.age = age;
         this.gender = gender;
         this.engDepartment=engDepartment;
-        this.yoe = yoe;
+        this.yearOfEnrollment = yoe;
         this.perDT = perDT;
     }
-//    public String getName(){
-//        return name;
-//    }
-//    public int getId(){
-//        return id;
-//    }
-//    public String getGender(){
-//        return gender;
-//    }
-//    public int getAge(){
-//        return age;
-//    }
-//    public String getEngDepartment(){
-//        return engDepartment;
-//    }
-//    public double getPerDT(){
-//        return perDT;
-//    }
-//    public int getYoe(){
-//        return yoe;
-//    }
-//    @Override
+
+   @Override
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
@@ -46,7 +26,7 @@ public class Student {
                 ", id=" + id +
                 ", gender=" + gender +
                 ", Department=" + engDepartment +
-                ", year of enrollment=" + gender +
+                ", year of enrollment=" + yearOfEnrollment +
                 ", perTillDate=" + perDT +
                 '}';
     }

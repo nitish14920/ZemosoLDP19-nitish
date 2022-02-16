@@ -23,7 +23,7 @@ public class MainStudent {
 
         // 2
         List<Student> studentsEnrolled2018 = students.stream()
-                .filter(student -> student.yoe >= 2018.).collect(Collectors.toList());
+                .filter(student -> student.yearOfEnrollment >= 2018.).collect(Collectors.toList());
         //studentsEnrolled2018.forEach(student -> System.out.println(student.name));
 
 
