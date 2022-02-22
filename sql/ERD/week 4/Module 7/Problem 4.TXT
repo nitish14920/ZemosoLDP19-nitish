@@ -1,0 +1,5 @@
+Rectification:
+    • Same Attribute i.e. Attribute2-1 listed twice in Entity2.
+    • Redundant foreign key in Entity2 i.e. Attribute1-1 and Attribute4-1.
+    • Rel6 violates Identifying Relationship Rule, It has to be dotted.
+    • Id Dependency Cardinality Rule, it has to be changed maximum cardinality from Entity6 to Entity7 to 1.
