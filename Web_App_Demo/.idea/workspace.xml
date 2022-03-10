@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1098d36-790a-4723-9178-a69f425c9d39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/libs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuilderDesignPattern/BuilderDesignPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuilderDesignPattern/src/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuilderDesignPattern/src/PhoneBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuilderDesignPattern/src/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/Spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/AnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/JavaAnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/classes/DatabaseFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/classes/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/classes/RandomFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/classes/SportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/classes/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/classes/TennisCoach2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/interfaces/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/annotations/interfaces/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/demo/BeanScopeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/demo/Classes/BasketBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/demo/Classes/Cricket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/demo/Classes/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/demo/Classes/Hockey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/demo/Interfaces/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/demo/Interfaces/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/demo/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/demo/SetterInjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/resources/annotation-applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/resources/applicationcontext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/resources/beanScope-applicationcontext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/sport.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/.idea/libraries/spring_aop_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/SpringDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/applicationcontext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/com/company/demo/BasketBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/com/company/demo/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/com/company/demo/Cricket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/com/company/demo/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/com/company/demo/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/src/com/company/demo/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/JavaPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/JavaPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="262mYWG9OYdJLOu0G7VOlxSgJjA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1098d36-790a-4723-9178-a69f425c9d39" name="Changes" comment="" />
+      <created>1646630107686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646630107686</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
