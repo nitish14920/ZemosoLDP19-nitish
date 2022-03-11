@@ -4,12 +4,17 @@
 <html>
 <head>
     <title>Student Registration form</title>
+
+    <style>
+        .error {color:red}
+    </style>
 </head>
 <body>
     <form:form action="processForm" modelAttribute="student">
         First name: <form:input path="firstName" />
         <br>
-        Last name: <form:input path="lastName" />
+        Last name(*): <form:input path="lastName" />
+        <form:errors path="lastName" cssClass="error"/>
         <br>
         Country:
         <form:select path="country">

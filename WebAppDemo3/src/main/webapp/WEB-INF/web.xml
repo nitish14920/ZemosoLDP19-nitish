@@ -49,4 +49,14 @@
     <url-pattern>/student/processForm</url-pattern>
   </servlet-mapping>
 
+  <servlet-mapping>
+    <servlet-name>WebAppDemo3</servlet-name>
+    <url-pattern>/customer/showForm</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>WebAppDemo3</servlet-name>
+    <url-pattern>/customer/processForm</url-pattern>
+  </servlet-mapping>
+
 </web-app>

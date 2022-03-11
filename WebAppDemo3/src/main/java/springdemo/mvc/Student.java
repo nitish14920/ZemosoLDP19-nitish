@@ -1,15 +1,23 @@
 package springdemo.mvc;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+import java.time.chrono.HijrahDate;
 import java.util.LinkedHashMap;
 
 public class Student {
 
     private String firstName;
+    @NotNull
+    @Size(min = 1, message = "is required")
     private String lastName;
     private String country;
     private LinkedHashMap<String,String> countryOptions;
     private String favoriteLanguage;
     private String[] operatingSystems;
+    @Min(value = 0)
+    private int freePasses;
 
     public Student(){
 

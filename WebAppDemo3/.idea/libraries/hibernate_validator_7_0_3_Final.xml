@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="hibernate-validator-7.0.3.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/hibernate-validator-7.0.3.Final-dist/hibernate-validator-7.0.3.Final/dist/hibernate-validator-7.0.3.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/hibernate-validator-7.0.3.Final-dist/hibernate-validator-7.0.3.Final/dist/hibernate-validator-annotation-processor-7.0.3.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/hibernate-validator-7.0.3.Final-dist/hibernate-validator-7.0.3.Final/dist/hibernate-validator-cdi-7.0.3.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
