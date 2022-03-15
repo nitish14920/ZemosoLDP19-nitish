@@ -1,19 +1,39 @@
 package solid.ocp;
 
-public abstract class NotificationServices {
-    int phoneNo;
-    String email;
+public  class NotificationServices {
 
-    public abstract void sendOTP();
+
+    public void sendNotification(){
+        System.out.println("Notification Sent");
+    }
 
 }
-class EmailNotification extends NotificationServices{
+class MessageNotification extends NotificationServices{
 
-    @Override
-    public void sendOTP() {
-        System.out.println("OTP sent");
+    int mobileNo;
+
+    public MessageNotification(int mobileNo) {
+        this.mobileNo = mobileNo;
     }
-    public void sendEmail(){
-        System.out.println("Email sent");
+
+    public void sendNotification(){
+        System.out.println("Message Sent to Number: " + mobileNo);
+    }
+
+}
+class CallNotification extends MessageNotification {
+
+    public CallNotification(int mobileNo) {
+        super(mobileNo);
+    }
+    public void sendNotification(){
+        System.out.println("You'll be getting call on Number: " + mobileNo);
+    }
+
+}
+class Main{
+    public static void main(String[] args) {
+        CallNotification call = new CallNotification(9416162);
+        call.sendNotification();
     }
 }

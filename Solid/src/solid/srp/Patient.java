@@ -3,29 +3,25 @@ package solid.srp;
 public class Patient {
     String patient_name;
     String patient_id;
-    String admission_no;
+    int admission_no;
 
-    public void addPatient(){
-        //code to add patients in hospital
+    public Patient(String patient_name, String patient_id, int admission_no) {
+        this.patient_name = patient_name;
+        this.patient_id = patient_id;
+        this.admission_no = admission_no;
+    }
+
+    public String getPatient_name() {
+        return patient_name;
+    }
+
+    public String getPatient_id() {
+        return patient_id;
+    }
+
+    public int getAdmission_no() {
+        return admission_no;
     }
 
 }
 
-class Printer{
-    public void printPatientDetails(){
-        // code for printing patient details
-    }
-}
-class Cashier{
-
-    private int amountCharged;
-    private int amountPaid;
-
-    public void setCharges(int amountCharged,int amountPaid){
-        //code to set charges
-    }
-
-    public int getBalance(String patient_id){
-        return amountCharged - amountPaid;
-    }
-}
